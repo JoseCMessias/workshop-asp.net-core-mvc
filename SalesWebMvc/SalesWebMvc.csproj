@@ -7,15 +7,28 @@
   <ItemGroup>
     <Compile Remove="Models\NovaPasta1\**" />
     <Compile Remove="Models\NovaPasta\**" />
+    <Compile Remove="Services\NovaPasta1\**" />
+    <Compile Remove="Services\NovaPasta2\**" />
+    <Compile Remove="Services\NovaPasta\**" />
     <Content Remove="Models\NovaPasta1\**" />
     <Content Remove="Models\NovaPasta\**" />
+    <Content Remove="Services\NovaPasta1\**" />
+    <Content Remove="Services\NovaPasta2\**" />
+    <Content Remove="Services\NovaPasta\**" />
     <EmbeddedResource Remove="Models\NovaPasta1\**" />
     <EmbeddedResource Remove="Models\NovaPasta\**" />
+    <EmbeddedResource Remove="Services\NovaPasta1\**" />
+    <EmbeddedResource Remove="Services\NovaPasta2\**" />
+    <EmbeddedResource Remove="Services\NovaPasta\**" />
     <None Remove="Models\NovaPasta1\**" />
     <None Remove="Models\NovaPasta\**" />
+    <None Remove="Services\NovaPasta1\**" />
+    <None Remove="Services\NovaPasta2\**" />
+    <None Remove="Services\NovaPasta\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Services\Exceptions.cs" />
     <Compile Remove="Views\Sellers\HomeController.cs" />
   </ItemGroup>
 
